@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="tfe_color_primary">#4CAF50</color>
+    <color name="tfe_color_primary_dark">#3C863E</color>
+    <color name="tfe_color_accent">#2196F3</color-->
+
+    <color name="tfe_color_primary">#0DB6A7</color>
+    <color name="tfe_color_primary_dark">#0AA194</color>
+    <color name="tfe_color_accent">#009688</color>
+
+    <color name="tfe_semi_transparent">#66000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="zuta">#FFEB3B</color>
+    <color name="plava">#0E7FDA</color>
+    <color name="crvena">#E32719</color>
+    <color name="zelena">#2BAE31</color>
+    <color name="crna">#0C0C0C</color>
+    <color name="svetlozelena">#6AE870</color>
+    <color name="siva">#403D3D</color>
+    <color name="coral">#F44336</color>
+    <color name="coralSvetla">#F1564B</color>
+    <color name="coralTamna">#EA3427</color>
+    <color name="roza">#F1564B</color>
+
+    <color name="roza1">#EC3A76</color>
+    <color name="roza2">#E91E63</color>
+    <color name="tirkiz">#47CDC1</color>
+    <color name="belaProzirna">#D0FDF6F6</color>
+    <color name="coralProzirna">#CFF1564B</color>
+    <color name="tirkizProzirna">#D147CDC1</color>
+
+
+</resources>

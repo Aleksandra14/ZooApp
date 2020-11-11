@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ikonica2"
+    tools:context=".KvizKrajActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D0FDF6F6"
+        android:layout_marginHorizontal="17dp"
+        android:layout_marginVertical="45dp">
+
+        <TextView
+            android:id="@+id/txtBr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+
+            android:text="Broj poena:"
+            android:textSize="35dp"
+            />
+
+        <TextView
+            android:id="@+id/txtBrPoena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txtBr"
+            android:layout_marginTop="35dp"
+            android:text="10/10"
+            android:textSize="40dp"
+            />
+
+        <TextView
+            android:id="@+id/txtBrTac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txtBrPoena"
+            android:text="Broj tačnih odgovora:"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/txtBrTacnih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txtBrTac"
+            android:layout_margin="15dp"
+            android:layout_marginTop="15dp"
+            android:text="10/10"
+            android:textSize="30dp"
+            />
+
+        <Button
+            android:id="@+id/btnPonovo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txtBrTacnih"
+            android:layout_marginTop="55dp"
+            android:text="Igraj ponovo"
+            android:textSize="20dp"
+            android:textColor="@color/roza"
+            android:background="@drawable/dizajn_prethodno"
+            />
+
+        <Button
+            android:id="@+id/btnPocetak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btnPonovo"
+            android:layout_marginTop="25dp"
+            android:text="Vrati se na početak"
+            android:textSize="20dp"
+            android:textColor="@color/tfe_color_primary_dark"
+            android:background="@drawable/dizajn_vrati_se_na_pocetak"
+            />
+
+        <com.felipecsl.gifimageview.library.GifImageView
+            android:id="@+id/gif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/btnPocetak"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginVertical="45dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>
